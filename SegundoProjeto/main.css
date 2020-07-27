@@ -1,0 +1,119 @@
+/* Geral */
+html, body {
+  margin: 0;
+}
+section{
+  padding: 20px;
+  float: left;
+}
+.coluna{
+  float: left;
+  padding: 0 5%;
+  position: relative;
+  width: 40%;
+}
+.dois{
+  width: 40%;
+}
+.tres{
+  width: 29%;
+  padding: 0 2%;
+}
+.quatro{
+  width: 15%;
+}
+.justificado{
+  text-align: justify;
+}
+.centralizado{
+  text-align: center;
+}
+.destaque{
+  background-color: #f7f7f7;
+}
+
+/* Primeira DIV */
+.imagem_fundo {
+  background: url("fundo.jpg");
+  height: 100%;
+  text-align: center;
+  background-size: cover;
+}
+.titulo {
+  color: white;
+  padding-top: 20%;
+  font-size: 70px;
+  line-height: 0.6;  
+}
+.subtitulo {
+  color: white;
+  margin-left: 20%;
+  margin-right: 20%;
+  border-top: 3px solid white;
+  text-shadow: 1px 1px  black;
+}
+#acao {
+  color: white;
+  border: 1px white solid;
+  padding: 10px 20px 10px 20px ;
+}
+
+/* Section Seleção */
+.img-icon{
+  height: 51px;
+  margin: 4px;
+}
+
+/* Section EcoPontos */
+.imgs{
+  width: 90%;
+  height: 30%;
+}
+
+/* Section Sobre */
+.img-sobre{
+  width: 100%;  
+}
+.sobre{
+  float: left;
+}
+
+/* Barra do Topo (Header) */
+header{
+  background-color: black;
+  color: white;
+  height: 60px;
+  width: 100%;
+  position: fixed;  
+  z-index: 10;
+  
+}
+li{
+  float: left;
+  padding: 20 10 20 10 ;    
+  color: white;
+}
+li:hover{
+  cursor: pointer;
+  background-color: #01AAEA;
+}
+.menu{    
+  float: right;
+  margin-right: 5%;
+  list-style: none;  
+  margin-top: 0px;
+}
+.logo{  
+  position: absolute;
+  width: 96px;
+  float: left;  
+  top: 10px;
+  margin-left: 5%;
+}
+
+/* Barra Final (Footer)*/
+footer{
+  background-color: #01AAEA;
+  color: white;
+  float: left;
+}
